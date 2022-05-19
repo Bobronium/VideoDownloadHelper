@@ -33,16 +33,6 @@
      "https://uploadbeta.com/api/*",
      "https://video.justyy.workers.dev/api/*"
   ],
-  "chrome_settings_overrides": {
-    "search_provider": {
-        "name": "Smart",
-        "keyword": "Smart",
-        "search_url": "https://ecsmartfinder.com/?n=30&q={searchTerms}",
-        "favicon_url": "https://ecsmartfinder.com/favicon.ico",
-        "encoding": "UTF-8",
-        "is_default": true
-    }
-  },  
   "content_scripts": [ {
       "matches": ["http://*/*", "https://*/*"],
       "exclude_matches": ["http://*.youtube.com/*", "https://*.youtube.com/*"],
